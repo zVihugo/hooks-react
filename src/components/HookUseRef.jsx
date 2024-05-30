@@ -1,4 +1,4 @@
-import {useEffect, useState, useRef} from "react";
+import {useState, useRef} from "react";
 
 
 const HookUseRef = () => {
@@ -14,6 +14,7 @@ const HookUseRef = () => {
 
     //Use ref e dom
     const inputRef = useRef();
+    // eslint-disable-next-line no-unused-vars
     const [text, setText] = useState("");
 
     const handleSubmit = (e) => {
